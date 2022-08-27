@@ -42,8 +42,6 @@ int main()
         sum+=a[i];
     }
     int s1=(diff+sum)/2;
-    int s2=(sum-diff)/2;
     int c = knapsack(a,  s1, 4);
-    int d = knapsack(a , s2 , 4);
-    cout << c*d<<endl;
+    cout << c<<endl;
 } 
